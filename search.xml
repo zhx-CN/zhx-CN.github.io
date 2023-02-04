@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>筛质数</title>
+      <link href="/2023/02/04/2023-2-4-first/"/>
+      <url>/2023/02/04/2023-2-4-first/</url>
+      
+        <content type="html"><![CDATA[<h2 id="线性筛质数"><a href="#线性筛质数" class="headerlink" title="线性筛质数"></a>线性筛质数</h2><p>例子：30和45的最大公因数是15<br>设30为a, 15为b, 2为c<br>那c肯定会小于b, 因为b是最大公因数, 如果大于b, 那他(c)就是最大公因数, 所以不可能<br>c是质数, 因为假如c是质数, 那肯定可以分离个质数给b, 这样b就不是最大公因数了<br>所以, 是不是我们把(小于b的质数全部去乘以1~n）的数全部给标记了, 就可以了？<br>不是, 假如c大于b的最小质因数, 那30的最大公因数就不是b了<br>因为b是由若干个质数组成, 如果c大于b的最小质因数, 那b可以是会把自己最小的质因数和c换<br>所以, 当我们在遍历质数数组时, 它最多就是等于b的最小质因数</p><p>还有一个, 我们把从2开始的看作因数, 找他的质数, 第一层循环, 相当于从前往后去遍历一下所有的因数<br>第二层循环, 相当于把第一层循环中的i的后面的合数进行了标记, 并且根据质数不大于b的最小公因数, 去找后面的合数<br>如果质数与b的最小公因数相等, 那直接break</p><p><strong>代码如下</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int N=1000010;</span><br><span class="line">int primes[N];</span><br><span class="line">bool st[N];</span><br><span class="line">int ans;</span><br><span class="line">void get_primes(int x)</span><br><span class="line">&#123;</span><br><span class="line">for(int i=2;i&lt;=x;i++)</span><br><span class="line">&#123;</span><br><span class="line">if(!st[i]) primes[ans++]=i;</span><br><span class="line">for(int j=0;primes[j]&lt;=x/i;j++)</span><br><span class="line">&#123;</span><br><span class="line">st[primes[j]*i]=true;</span><br><span class="line">if(i%primes[j]==0) break;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int n;</span><br><span class="line">cin&gt;&gt;n;</span><br><span class="line">get_primes(n);</span><br><span class="line">cout&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>骚家军yyds</title>
       <link href="/2023/02/03/2023-2-3-first/"/>
       <url>/2023/02/03/2023-2-3-first/</url>
@@ -52,17 +71,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -74,9 +82,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -85,9 +93,20 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
