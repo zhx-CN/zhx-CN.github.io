@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>AtCoder 288_C</title>
+      <link href="/2023/02/05/2023-2-5-first/"/>
+      <url>/2023/02/05/2023-2-5-first/</url>
+      
+        <content type="html"><![CDATA[<h2 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h2><p>本次题目：<a href="https://atcoder.jp/contests/abc288/tasks/abc288_c">简单题但卡壳了</a></p><p>题目简叙：将这个无向图建立起来，对其进行操作：删除最小边数，使其不再有环，求最小操作次数</p><p>想法：使用并查集，把相连的集合合并，然后再进行遍历，判断有几个find(i)==i，就是对应的环数，就这样吗？<br>不对，假如这个集合有多个环呢？所以，我们一开始就要算对于集合中多余的环数，怎么算？<br>假如一个集合只有一个环，那他的点数应该等于边数<br>所以我们先要除去多余的边数，然后再进行find(i)==i判断累加即可</p><p><strong>代码如下</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int N=200010;</span><br><span class="line">int f[N];</span><br><span class="line">int n, m, ans, cnt;</span><br><span class="line">int find(int x)</span><br><span class="line">&#123;</span><br><span class="line">if(f[x]!=x) f[x]=find(f[x]);</span><br><span class="line">return f[x];</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">ios::sync_with_stdio(false);</span><br><span class="line">cin.tie(0);</span><br><span class="line">cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">for(int i=1;i&lt;=n;i++)</span><br><span class="line">f[i]=i;</span><br><span class="line">for(int i=1;i&lt;=m;i++)</span><br><span class="line">&#123;</span><br><span class="line">int p, q;</span><br><span class="line">cin&gt;&gt;p&gt;&gt;q;</span><br><span class="line">f[find(p)]=find(q);</span><br><span class="line">&#125;</span><br><span class="line">int cnt=m-n;</span><br><span class="line">for(int i=1;i&lt;=n;i++)</span><br><span class="line">&#123;</span><br><span class="line">if(find(i)==i)</span><br><span class="line">cnt++;</span><br><span class="line">&#125;</span><br><span class="line">cout&lt;&lt;cnt&lt;&lt;endl;</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>筛质数</title>
       <link href="/2023/02/04/2023-2-4-first/"/>
       <url>/2023/02/04/2023-2-4-first/</url>
@@ -71,6 +90,17 @@
     
     
     <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -104,9 +134,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -118,17 +148,6 @@
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
