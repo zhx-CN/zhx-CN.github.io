@@ -1,0 +1,219 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="wBZnobKDlDg22rd6KxxH">
+    <mxGraphModel dx="1725" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="htytPSZPr6xToypsPZzR-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="开始" vertex="1">
+          <mxGeometry height="39" width="57" x="410" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC：收集需求资料" vertex="1">
+          <mxGeometry height="54" width="191" x="343" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否已具备基本需求资料?" vertex="1">
+          <mxGeometry height="81" width="236" x="320" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC：补充资料 / 补充确认" vertex="1">
+          <mxGeometry height="54" width="241" x="158" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC：梳理当前需求关键信息" vertex="1">
+          <mxGeometry height="54" width="255" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC：基于 PMS / 历史信息进行录入前路径判断" vertex="1">
+          <mxGeometry height="54" width="260" x="420" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否已具备判断依据?" vertex="1">
+          <mxGeometry height="68" width="204" x="535.5" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-8" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否确定为无需平台产业化开发?" vertex="1">
+          <mxGeometry height="68" width="254" x="511" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="进入平台链路需求详细整理" vertex="1">
+          <mxGeometry height="54" width="252" x="676" y="766" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC：在 PMS 中创建“无需平台产业化开发”需求项目" vertex="1">
+          <mxGeometry height="54" width="260" x="366" y="766" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PMS：按“无需平台产业化开发”流程继续流转" vertex="1">
+          <mxGeometry height="54" width="260" x="366" y="854" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-12" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="当前可采用的留痕路径" vertex="1">
+          <mxGeometry height="65" width="214" x="390" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：生成 PMS 同步留痕记录" vertex="1">
+          <mxGeometry height="54" width="260" x="74" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：生成轻量留痕记录" vertex="1">
+          <mxGeometry height="54" width="236" x="379" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC / 产品管理人员：执行兜底补登记" vertex="1">
+          <mxGeometry height="54" width="260" x="658" y="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：生成兜底留痕记录" vertex="1">
+          <mxGeometry height="54" width="236" x="670" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：需求留痕查询" vertex="1">
+          <mxGeometry height="54" width="204" x="395" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-18" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="进入平台链路流程" vertex="1">
+          <mxGeometry height="39" width="153" x="726" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-19" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="结束" vertex="1">
+          <mxGeometry height="39" width="57" x="468.5" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-20" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-21" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-22" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-3" style="curved=1;startArrow=none;endArrow=block;entryX=0.25;entryY=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-4" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="333" />
+            </Array>
+            <mxPoint x="259" y="248.66" as="sourcePoint" />
+            <mxPoint x="224.26999999999998" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-23" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;rounded=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425.07000000000005" y="329" />
+            </Array>
+            <mxPoint x="346.00000000000034" y="366" as="sourcePoint" />
+            <mxPoint x="436" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-24" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-3" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-5" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="647.18" y="290.88" />
+            </Array>
+            <mxPoint x="640" y="276" as="sourcePoint" />
+            <mxPoint x="640" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-25" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-26" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.16;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-27" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0.67;entryY=1;rounded=0;" target="htytPSZPr6xToypsPZzR-5" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="724" y="553" />
+              <mxPoint x="724" y="449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-28" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-8" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-29" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-8" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-9" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="801.46" y="729" />
+            </Array>
+            <mxPoint x="754" y="685.53" as="sourcePoint" />
+            <mxPoint x="801.46" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-30" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-8" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-10" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="729" />
+            </Array>
+            <mxPoint x="511" y="714.53" as="sourcePoint" />
+            <mxPoint x="491.0000000000002" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-31" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-32" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-33" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-12" style="curved=1;startArrow=none;endArrow=block;entryX=0.25;entryY=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-13" value="PMS 信息同步">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="1020" />
+            </Array>
+            <mxPoint x="206" y="1034.04" as="sourcePoint" />
+            <mxPoint x="192" y="1161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-34" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-12" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-14" value="TC 轻量登记">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="495.29" y="1018" as="sourcePoint" />
+            <mxPoint x="495.29" y="1178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-35" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-12" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-15" value="主路径不可用 / 遗漏">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728.6700000000001" y="1017.6700000000001" />
+            </Array>
+            <mxPoint x="665" y="954" as="sourcePoint" />
+            <mxPoint x="728.6700000000001" y="1054.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-36" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="htytPSZPr6xToypsPZzR-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-37" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.17;rounded=0;" target="htytPSZPr6xToypsPZzR-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-38" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="htytPSZPr6xToypsPZzR-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="486" y="1249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-39" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-16" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.15;rounded=0;" target="htytPSZPr6xToypsPZzR-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="788" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-40" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="htytPSZPr6xToypsPZzR-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htytPSZPr6xToypsPZzR-41" edge="1" parent="1" source="htytPSZPr6xToypsPZzR-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=-0.01;rounded=0;" target="htytPSZPr6xToypsPZzR-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
