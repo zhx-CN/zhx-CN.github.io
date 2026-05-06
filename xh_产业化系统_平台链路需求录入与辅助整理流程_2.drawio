@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="WvMcoASF3CIYqQvlD1e-">
+    <mxGraphModel dx="3374" dy="1757" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="开始" vertex="1">
+          <mxGeometry height="39" width="57" x="404" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：进入平台链路需求详细整理" vertex="1">
+          <mxGeometry height="54" width="260" x="302" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="是否采用文档导入与解析?" vertex="1">
+          <mxGeometry height="236" width="236" x="314" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：导入需求文档" vertex="1">
+          <mxGeometry height="54" width="191" x="637" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="系统：执行文档导入与解析" vertex="1">
+          <mxGeometry height="54" width="252" x="607" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：确认解析结果并补充需求信息" vertex="1">
+          <mxGeometry height="54" width="260" x="603" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="是否采用历史参考辅助填充?" vertex="1">
+          <mxGeometry height="252" width="252" x="151" y="523" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：参考历史信息辅助填充" vertex="1">
+          <mxGeometry height="54" width="255" x="295" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：确认并调整辅助填充内容" vertex="1">
+          <mxGeometry height="54" width="260" x="293" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：人工录入需求信息" vertex="1">
+          <mxGeometry height="54" width="223" x="20" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="形成结构化需求记录" vertex="1">
+          <mxGeometry height="54" width="204" x="321" y="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="系统：录入过程即时提示" vertex="1">
+          <mxGeometry height="54" width="236" x="419" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-13" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="是否仍需补充 / 修改?" vertex="1">
+          <mxGeometry height="206" width="206" x="434" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TC：补充或修改需求信息" vertex="1">
+          <mxGeometry height="54" width="239" x="172" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="进入集中校验流程" vertex="1">
+          <mxGeometry height="54" width="188" x="461" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-16" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="结束" vertex="1">
+          <mxGeometry height="39" width="57" x="526" y="1649" as="geometry" />
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-17" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-18" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-19" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-4" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="733" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-20" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-21" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-22" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-7" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-23" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-8" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-24" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-25" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-10" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="131" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-26" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.18;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="733" y="1032" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-27" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-28" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.16;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="131" y="1032" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-29" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="1136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-30" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-31" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.72;entryY=-0.01;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-14" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="1508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-32" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=-0.01;entryX=0.13;entryY=1;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="1508" />
+              <mxPoint x="277" y="1136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-33" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-15" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="1508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZenwdT-i2I1yzi5d-yUU-34" edge="1" parent="1" source="ZenwdT-i2I1yzi5d-yUU-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="ZenwdT-i2I1yzi5d-yUU-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
