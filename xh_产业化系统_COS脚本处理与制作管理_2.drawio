@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="EBoXFHO6dnSpJTSJHPv4">
-    <mxGraphModel dx="584" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="316" dy="373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -399,6 +399,9 @@
         </mxCell>
         <mxCell id="ZAEj48f6MH7oBfocWkRx-124" parent="1" style="whiteSpace=wrap;html=1;" value="这里的COS任务采用哪种方式好一点？我还没想好，能不能帮我分析一下呢？" vertex="1">
           <mxGeometry height="84" width="233" x="4241" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="Bjjxj0pq7fbMT_Srhcmt-1" parent="1" style="whiteSpace=wrap;html=1;" value="这个部分的描述是否需要进行修改呢？会不会存在描述模糊、没有很好地承接前面的流程的情况呢？" vertex="1">
+          <mxGeometry height="60" width="284" x="3876" y="1463" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
