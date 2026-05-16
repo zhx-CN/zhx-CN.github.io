@@ -1,0 +1,406 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="EBoXFHO6dnSpJTSJHPv4">
+    <mxGraphModel dx="584" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="承接产业化需求流程：系统已执行需求分发" vertex="1">
+          <mxGeometry height="63" width="231" x="3589" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：生成 COS 任务并关联当前产业化需求" vertex="1">
+          <mxGeometry height="78" width="260" x="3575" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：接收并查看 COS 任务" vertex="1">
+          <mxGeometry height="78" width="260" x="3575" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-4" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" target="ZAEj48f6MH7oBfocWkRx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-5" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：提取并展示 COS 相关字段清单" vertex="1">
+          <mxGeometry height="78" width="260" x="3575" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="备注：COS相关字段包括但不限于&#xa;COS Version/脚本依据、芯片型号、卡片用途、下载方式、&#xa;ATR/ATS、SAK、ATQA、Mifare、算法、特殊需求、&#xa;应用AID、CAP包/代码版本、引用标准及补充说明等" vertex="1">
+          <mxGeometry height="246" width="260" x="3173" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-8" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-9" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4393" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-10" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="COS处理所需信息是否完整、清晰？" vertex="1">
+          <mxGeometry height="74" width="278" x="4002" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-11" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZAEj48f6MH7oBfocWkRx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：提出待补充/待确认问题" vertex="1">
+          <mxGeometry height="78" width="260" x="4263" y="685.55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-13" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZAEj48f6MH7oBfocWkRx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：记录问题并更新 COS 任务状态" vertex="1">
+          <mxGeometry height="78" width="260" x="4263" y="811" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-15" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZAEj48f6MH7oBfocWkRx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TC/应用相关人员：补充或确认需求信息" vertex="1">
+          <mxGeometry height="78" width="260" x="4263" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-17" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：更新 COS 任务信息" vertex="1">
+          <mxGeometry height="54" width="242" x="4272" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-19" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4116" y="759" />
+              <mxPoint x="4116" y="1425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-20" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="需求是否指定&#xa;COS Version / 脚本依据？" vertex="1">
+          <mxGeometry height="88" width="261" x="3624" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：比对指定脚本配置与当前需求字段差异" vertex="1">
+          <mxGeometry height="78" width="260" x="3537" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：选择对应 COS 并确认制作输入" vertex="1">
+          <mxGeometry height="102" width="260" x="5419" y="1243" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-23" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-24" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4356" y="1050" />
+              <mxPoint x="4356" y="2225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-25" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否存在配置字段差异？" vertex="1">
+          <mxGeometry height="89" width="230" x="3552" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：查询修改指令库" vertex="1">
+          <mxGeometry height="54" width="220" x="3113" y="1134" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2051.5" y="1391" />
+            </Array>
+            <mxPoint x="1965" y="1391.25" as="sourcePoint" />
+            <mxPoint x="2051.5" y="1459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-29" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-30" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3275" y="1425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-31" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="修改指令库是否记录该差异字段对应的修改指令规则？" vertex="1">
+          <mxGeometry height="87" width="206" x="3120" y="1238" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：根据规则生成待确认修改指令" vertex="1">
+          <mxGeometry height="78" width="260" x="2746" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：确认修改指令是否正确" vertex="1">
+          <mxGeometry height="78" width="260" x="2746" y="1513" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-35" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2651" y="1706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-36" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2933" y="2068" />
+              <mxPoint x="2891" y="2068" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-37" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="修改指令是否确认通过？" vertex="1">
+          <mxGeometry height="87" width="230" x="2761" y="1641" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-38" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZAEj48f6MH7oBfocWkRx-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：记录本次修改指令使用结果" vertex="1">
+          <mxGeometry height="78" width="260" x="2761" y="2116" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：提示暂无对应修改指令规则并提供新增入口" vertex="1">
+          <mxGeometry height="78" width="260" x="714" y="1779" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-41" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：判断是否可提供新的修改指令规则" vertex="1">
+          <mxGeometry height="102" width="260" x="714" y="1907" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-42" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="是否提供新的修改指令规则？" vertex="1">
+          <mxGeometry height="278" width="278" x="705" y="2083" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-43" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：填写/提交修改指令规则" vertex="1">
+          <mxGeometry height="78" width="260" x="869" y="2435" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-44" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：保存修改指令规则、适用说明及关联字段" vertex="1">
+          <mxGeometry height="78" width="260" x="869" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-45" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：记录该差异字段暂无可用修改指令规则" vertex="1">
+          <mxGeometry height="78" width="260" x="559" y="2575" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：按确认后的配置要求处理 COS" vertex="1">
+          <mxGeometry height="102" width="260" x="3543" y="1374" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-47" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：修改代码并编译生成 hex/bin 文件" vertex="1">
+          <mxGeometry height="102" width="260" x="3543" y="1526" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-48" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：下卡进行参数检查验证" vertex="1">
+          <mxGeometry height="78" width="260" x="3680" y="1678" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-49" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="验证是否通过？" vertex="1">
+          <mxGeometry height="166" width="166" x="3727" y="1806" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-50" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：修正代码、参数或输入信息" vertex="1">
+          <mxGeometry height="78" width="260" x="3388" y="2046" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-51" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：使用工具转换为指令集脚本" vertex="1">
+          <mxGeometry height="78" width="260" x="3698" y="2046" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-52" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：提交 COS 处理结果给产品管理人员" vertex="1">
+          <mxGeometry height="102" width="260" x="3698" y="2174" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-53" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：登记 COS 处理结果、输出文件、修改指令使用记录和验证结论" vertex="1">
+          <mxGeometry height="102" width="260" x="3698" y="2326" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-54" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：同步 COS 处理结果至任务与需求记录" vertex="1">
+          <mxGeometry height="78" width="260" x="3698" y="2478" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-55" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="结束：COS处理结果供制卡脚本生成环节引用" vertex="1">
+          <mxGeometry height="63" width="231" x="3712" y="2606" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-56" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-57" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-58" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-66" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-21" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3667" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-67" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-21" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-69" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-22" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.29;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5616" y="1342" />
+            </Array>
+            <mxPoint x="5271" y="1396.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-72" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-74" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-32" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-75" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-33" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-80" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-40" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-81" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-41" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-82" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-42" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-43" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="999" y="2398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-83" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-43" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-85" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-42" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-45" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="689" y="2398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-87" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-46" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-88" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-47" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3810" y="1653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-89" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-48" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-90" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-49" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.77;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-50" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3655" y="2009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-91" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-50" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=-0.01;entryX=0.06;entryY=1;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3504" y="2009" />
+              <mxPoint x="3504" y="1653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-92" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-49" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-51" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3828" y="2009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-93" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-51" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-52" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-94" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-52" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-53" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-95" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-53" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-54" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-96" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-54" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="ZAEj48f6MH7oBfocWkRx-55" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="3872" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="1841" y="1359.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="3052" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-102" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZAEj48f6MH7oBfocWkRx-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-103" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COS脚本制作与维护人员：编写正确的修改指令" vertex="1">
+          <mxGeometry height="78" width="260" x="2521" y="1783" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-104" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="2712" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-105" edge="1" parent="1" source="ZAEj48f6MH7oBfocWkRx-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ZAEj48f6MH7oBfocWkRx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-106" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="系统：将该字段对应的修改指令规则状态设置为&quot;禁用&quot;" vertex="1">
+          <mxGeometry height="78" width="260" x="2521" y="1929" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="3262" y="1313" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="3496" y="1019" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="3783" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="3865" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-111" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="4254" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-112" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="修改指令库是否记录该差异字段对应的修改指令规则？" vertex="1">
+          <mxGeometry height="87" width="215" x="2224" y="1398" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="2915" y="1727" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-114" parent="1" style="whiteSpace=wrap;html=1;" value="这里的生成COS任务没搞清楚是什么？得确认清楚，不然都不知道怎么开发" vertex="1">
+          <mxGeometry height="60" width="120" x="3885" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-115" parent="1" style="whiteSpace=wrap;html=1;" value="COS任务这个词有点太泛了，得调整一下" vertex="1">
+          <mxGeometry height="60" width="120" x="4056" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-116" parent="1" style="whiteSpace=wrap;html=1;" value="如果COS任务是给COS脚本制作与维护人员看此时需求对应的字段信息，那在这里，写&quot;系统：提取并展示 COS 相关字段清单&quot;，不太合理，上面COS脚本制作与维护人员已经查看COS任务，那如果系统还没提取，那此时，COS脚本制作与维护人员怎么去查看COS任务的" vertex="1">
+          <mxGeometry height="91" width="315" x="3872" y="439.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-117" parent="1" style="whiteSpace=wrap;html=1;" value="这里，是不是漏掉了&quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;是否需要应用侧确认&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;MASK相关输入?&lt;/span&gt;&quot;这种情况呢？对于这种情况的分支判断，如果需要的话，&lt;span style=&quot;background-color: transparent;&quot;&gt;COS脚本制作与维护人员：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;提出应用输入确认需求，&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;应用脚本制作与维护人员：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;确认并同步 MASK&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;相关输入信息，然后&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;系统：记录应用输入依赖及&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;协同说明。但是这种情况，和&quot;&lt;/span&gt;COS处理所需信息是否完整、清晰？&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;，该怎么去权衡呢？因为COS脚本制作与维护人员在查看所需信息的时候，其实也知道了此时需求的每个应用的所需要下载方式了，不能说得等到应用脚本制作与维护人员确认好应用信息，COS脚本制作与维护人员才能去看此时的COS脚本制作所需信息，应该是同步进行的。&lt;/span&gt;" vertex="1">
+          <mxGeometry height="156" width="428" x="4298" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-118" parent="1" style="whiteSpace=wrap;html=1;" value="这个是我自己添加的，在流程图上写状态会不会不太好？如果存在问题的话，可以如何进行修改呢？" vertex="1">
+          <mxGeometry height="60" width="194" x="2303" y="1938" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-123" parent="1" style="whiteSpace=wrap;html=1;" value="这里，是不是得重新进行修改，总感觉和下面的流程没进行承接，需不需要强调给产品管理人员？这个过程应该是由系统来完成的，这样写就有点像可以指定产品管理人员，你觉得采用哪里方式好一点？" vertex="1">
+          <mxGeometry height="115" width="287" x="4056" y="2255" as="geometry" />
+        </mxCell>
+        <mxCell id="ZAEj48f6MH7oBfocWkRx-124" parent="1" style="whiteSpace=wrap;html=1;" value="这里的COS任务采用哪种方式好一点？我还没想好，能不能帮我分析一下呢？" vertex="1">
+          <mxGeometry height="84" width="233" x="4241" y="198" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
